@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Face</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Face Registration</h2>
+    <div class="subtitle">
+        Please look into the camera for secure enrollment
+    </div>
+
+    <form method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <button type="submit" class="btn">Start Registration</button>
+    </form>
+
+    <a href="/" class="btn secondary">Back to Dashboard</a>
+
+    <div class="footer">
+        Healthcare-grade biometric enrollment
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(120deg, #e3f2fd, #f8fbff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 380px;
+    padding: 35px 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #0d47a1;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1e88e5;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #1e88e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1565c0;
+}
+
+.btn.secondary {
+    background: #43a047;
+}
+
+.btn.secondary:hover {
+    background: #2e7d32;
+}
+
+.btn.out {
+    background: #e53935;
+}
+
+.btn.out:hover {
+    background: #c62828;
+}
+
+.status {
+    font-size: 17px;
+    font-weight: 600;
+    color: #2e7d32;
+    margin-bottom: 25px;
+}
+
+.footer {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
